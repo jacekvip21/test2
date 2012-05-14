@@ -1,0 +1,13 @@
+SiteSite2Bundle:
+    resource: "@SiteSite2Bundle/Resources/config/routing.yml"
+    prefix:   /
+
+SiteSite1Bundle:
+    resource: "@SiteSite1Bundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal
